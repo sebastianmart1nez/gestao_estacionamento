@@ -18,7 +18,7 @@ public class SistemaLoginTeste {
     public void deveRejeitarUtilizadorInvalido(){
         SistemaLogin login = new SistemaLogin();
 
-        boolean resultado = login.autenticar("user", "0000"); 
+        boolean resultado = login.autenticar("user", "0000");
         assertFalse(resultado);
     }
 
