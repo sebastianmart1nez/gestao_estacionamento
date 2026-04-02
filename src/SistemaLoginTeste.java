@@ -11,7 +11,7 @@ public class SistemaLoginTeste {
     public void deveAutenticarUtilizadorValido(){
         SistemaLogin login = new SistemaLogin();
 
-        boolean resultado = login.autenticar("admin","1234");
+        boolean resultado = login.autenticar("admin","Admin@2026");
         assertTrue(resultado);
     }
     @Test
