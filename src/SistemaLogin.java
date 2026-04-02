@@ -9,7 +9,7 @@ public class SistemaLogin {
         if (utilizador==null || senha==null){
             return false;
         }
-        return utilizador.equals("admin") && senha.equals("1234");
+        return utilizador.equals("admin") && senha.equals("Admin@2026");
     }
 
     public static class SistemaLoginTeste {
